@@ -1,6 +1,6 @@
 # TheFrontEnders
 
-    Breve descrição do que o serviço se propõe a fazer
+    Breve descrição da história, ferramentas e oque o serviço se propõe a fazer
     Planos de assinatura e benefícios
     Bootstrap
     API ViaCEP
