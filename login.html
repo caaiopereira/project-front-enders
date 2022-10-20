@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/estilo-login.css" rel="stylesheet">
+    <script src="js/main.js"></script>
     <title>Login</title>
   </head>
   <body>
@@ -10,13 +11,15 @@
       <img src="https://cdn-icons-png.flaticon.com/512/17/17004.png" alt="" width="72" height="72"> 
       <h1>Login</h1> 
       <label for="inputEmail"></label> 
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus> <br>
+      <input type="email" id="inputEmail" class="form-control" placeholder="email" name="usuario" required autofocus> <br>
       <label for="inputPassword"></label> <br>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" name="senha" required>
       <div class="checkbox mb-3">
       </div> <br>
       <a class="recuperacao" href="recuperacao.html">Esqueceu sua Senha?</a> <br>  <br>
-      <button class="botao" type="submit">Logar</button>
+      <button class="botao" type="button" onclick="Login()" value="Login">Logar</button>
     </form>
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
