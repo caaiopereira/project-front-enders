@@ -16,6 +16,7 @@ body {
   padding: 15px;
   margin-bottom: 5;
   margin: 0 auto;
+  margin-top: 150px;
   background-color: #c3c9cc;
   border-radius: 5px;
   text-align: center;
@@ -60,4 +61,10 @@ body {
 }
 .recuperacao{
   text-decoration: none;
+}
+footer {
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
 }

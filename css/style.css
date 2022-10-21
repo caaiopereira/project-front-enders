@@ -6,13 +6,13 @@
         -ms-user-select: none;
         user-select: none;
       }
-
+    
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         } 
       }
-
+      
       @media only screen and (min-width: 360px) and (max-width: 960px){
         footer ul{
           margin-right: 100px;
