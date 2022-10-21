@@ -1,23 +1,54 @@
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/estilo-recuperacao.css">
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/estilo-recuperacao.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/pricing/">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <title>Recuperação de Senha</title>
-</head>
+    <title>Recuperação</title>
+  </head>
+
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal badge-pill badge-dark">The FrontEnders</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="index.html">Inicio</a>
+        <a class="p-2 text-dark" href="servicos.html">Serviços</a>
+        <a class="p-2 text-dark" href="contato.html">Contato</a>
+      </nav>
+    <a class="btn btn-outline-primary" href="login.html">Login</a>
+</div>
+<!-- -------------- NAVEGADOR --------------- -->
 <body>
     <form class="form-signin">
         <h2>Recuperação de Senha</h2>
-        <p>Informe seu endereço de email para recuperação da sua senha, enviaremos um link para acessa sua conta.</p> <br>
-        <label for="inputEmail"></label> 
-        <input type="email" class="form-control" placeholder="Email" name="email"><br>
-        <div class="checkbox mb-3"><br>
-        </div> <br>
-        <button class="botao" onclick="Recuperacao()" type="submit">Enviar</button><br>
+        <p>Informe seu endereço de email para recuperação da sua senha, enviaremos um link para acessa sua conta.</p><br>
+        <label for="inputPassword"></label> 
+        <input type="email" class="form-control" placeholder="Email" name="email" required><br>
+        <button class="botao" onclick="Recuperacao()" value="Recuperacao" type="button">Enviar</button><br>
         <a class="voltar" href="login.html">Voltar</a>
       </form>
+
+<!-- ------------------------------FOOTER-------------------- -->
+<div class="b-example-divider" style="margin-top: 215px;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="text-muted">&copy; 2022 TheFrontEnders, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><img src="img/fb.png" width="24px" height="auto"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><img src="img/inst.png" width="22px" height="auto"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><img src="img/tt.png" width="25px" height="auto"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://web.whatsapp.com"><img src="img/wpp.png" width="25px" height="auto"></a></li>
+          </ul>
+        </footer>
+</div>
       <script src="js/recuperacao.js"></script>
 </body>
 </html>

@@ -3,16 +3,16 @@ function Recuperacao() {
     var email = document.getElementsByName('email')[0].value;
     email=email.toLowerCase(); 
     //alert se der certo
-    if (email=="adm@") {  
+    if (email == "a") {  
     swal({
     title: "Sucesso",
-    text: "Login Efetuado",    
+    text: "Email enviado com sucesso!",    
     icon: "success",    
     button: false,   
     });    
-    // função para ir para pagina inicial   
-    setTimeout(function(){window.location="index.html"},1250);   
+    // função para ir para pagina login   
+    setTimeout(function(){window.location="login.html"},2100);   
     } // alerte se da erro   
-    else if (done==0) { swal("Error", "Email inválido", "error"); }   
+    else if (done==0) { swal("Error", "Email não encontrado ou inválido", "error"); }   
     }
 

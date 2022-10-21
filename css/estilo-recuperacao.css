@@ -1,18 +1,13 @@
 body {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-align: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    height: 100%;
-    font-family: "Segoe UI",'Roboto',"Helvetica Neue"
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  font-family: "Segoe UI",'Roboto',"Helvetica Neue";
   }
 
   .form-signin {
@@ -22,6 +17,7 @@ body {
     margin: 0 auto;
     background-color: #c3c9cc;
     border-radius: 5px;
+    text-align: center;
   }
 
   .form-signin .checkbox {
@@ -47,7 +43,7 @@ body {
     border-top-left-radius: 5;
     border-top-right-radius: 5;
   }
-  
+
   .botao{
     background-color: #56baed;
     border: none;
