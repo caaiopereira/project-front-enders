@@ -1,10 +1,10 @@
 // função
 function Login() {
   // variáveis
-    var done=0;
-    var usuario = document.getElementsByName('usuario')[0].value;
+    let done=0;
+    let usuario = document.getElementsByName('usuario')[0].value;
     usuario=usuario.toLowerCase();
-    var senha= document.getElementsByName('senha')[0].value;
+    let senha= document.getElementsByName('senha')[0].value;
     senha=senha.toLowerCase();
       //alert se  der certo
     if (usuario=="z" && senha=="z") {  

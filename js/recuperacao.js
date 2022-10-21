@@ -1,6 +1,6 @@
 function Recuperacao() {
-    var done=0;
-    var email = document.getElementsByName('email')[0].value;
+    let done=0;
+    let email = document.getElementsByName('email')[0].value;
     email=email.toLowerCase(); 
     //alert se der certo
     if (email == "a") {  
