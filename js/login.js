@@ -10,13 +10,13 @@ function Login() {
     if (usuario=="z" && senha=="z") {  
       swal({
     title: "Sucesso",
-    text: "Login Efetuado",
+    text: "Login Efetuado, Você será direcionado a página inicial!",
     icon: "success",
     button: false,
     });
           // função para ir para pagina inicial
-      setTimeout(function(){window.location="index.html"},1250);
+      setTimeout(function(){window.location="index.html"},2100);
      }  // alerte se da erro
-    else if (done==0) { swal("Erro de Login!", "Usuári ou Senha incorreta", "error"); }
+    else if (done==0) { swal("Error!", "Usuário ou Senha Invalidos", "error"); }
   }
   

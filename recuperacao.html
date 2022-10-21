@@ -4,17 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilo-recuperacao.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Recuperação de Senha</title>
 </head>
 <body>
     <form class="form-signin">
-        <h1>Recuperação de Senha</h1> <br>
+        <h2>Recuperação de Senha</h2>
         <p>Informe seu endereço de email para recuperação da sua senha, enviaremos um link para acessa sua conta.</p> <br>
         <label for="inputEmail"></label> 
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus> <br>
-        <div class="checkbox mb-3"> <br>
+        <input type="email" class="form-control" placeholder="Email" name="email"><br>
+        <div class="checkbox mb-3"><br>
         </div> <br>
-        <button class="botao" type="submit">Enviar</button>
+        <button class="botao" onclick="Recuperacao()" type="submit">Enviar</button><br>
+        <a href="login.html">Voltar</a>
       </form>
+      <script src="js/recuperacao.js"></script>
 </body>
 </html>
+
