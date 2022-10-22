@@ -1,9 +1,8 @@
 function Recuperacao() {
     let done=0;
-    let email = document.getElementsByName('email')[0].value;
-    email=email.toLowerCase(); 
+    let mail = document.getElementsByName('email')[0].value;
     //alert se der certo
-    if (email == "a") {  
+    if (mail == localStorage.email) {  
     swal({
     title: "Sucesso",
     text: "Email enviado com sucesso!",    
@@ -15,4 +14,3 @@ function Recuperacao() {
     } // alerte se da erro   
     else if (done==0) { swal("Error", "Email não encontrado ou inválido", "error"); }   
     }
-
