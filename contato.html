@@ -33,27 +33,27 @@
         <div class="form-row">
               <div class="form-group col-md-6">
                 <label>Usuario</label>
-                <input type="text" class="form-control" id="" required >
+                <input type="text" class="form-control" id="usuario" required >
               </div>
               <div class="form-group col-md-6">
                 <label>Email</label>
-                <input type="email" class="form-control" id="" required>
+                <input type="email" class="form-control" required>
               </div>
               <div class="form-group col-md-6">
                 <label>Senha</label>
-                <input type="password" class="form-control" id="" required>
+                <input type="password" class="form-control" id="password" minlength="8" required>
               </div>
               <div class="form-group col-md-6">
                 <label>Confirmar Senha</label>
-                <input type="password" class="form-control" id="" required>
+                <input type="password" class="form-control" id="confirm_password" minlength="8" required>
               </div>
               <div class="form-group col-md-6">
                   <label>RG</label>
-                  <input type="number" class="form-control" id="" required>
+                  <input type="number" class="form-control" maxlength="7" required>
               </div>
               <div class="form-group col-md-6">
                 <label>CPF</label>
-                <input type="number" class="form-control" id="" required>
+                <input type="number" class="form-control" maxlength="11" required>
             </div>
           <div class="form-group col-md-3">
               <label>Cep:
@@ -73,14 +73,14 @@
           </div>
           <div class="form-group col-md-4">
               <label>Estado:
-              <input name="uf"  class="form-control"type="text" id="uf" size="25" /></label><br />
+              <input name="uf" class="form-control"type="text" id="uf" size="25" /></label><br />
           </div>
           <div class="form-group col-md-3">
               <label>IBGE:
               <input name="ibge" class="form-control" type="text" id="ibge" size="22" /></label><br />
           </div>
       </div>
-        <button type="submit" style="width: 160px;" class="btn btn-primary">Enviar</button>
+        <button type="submit" style="width: 160px;" onclick="Salvar()" class="btn btn-primary">Enviar</button>
     </form>
 </div> 
 
@@ -89,7 +89,7 @@
     <h5 class="card-header"><span>Ligue para nós </span></h5>
     <div class="card-body">
       <h5 class="card-title">Entre em contato com nossa equipe de vendas</h5>
-      <p class="card-text"> Disponível de segunda a sexta-feira, das 8h às 18h (Horário de Brasília) no telefone 0800-724-8154</p>
+      <p class="card-text">Disponível de segunda a sexta-feira, das 8h às 18h (Horário de Brasília) no telefone 0800-724-8154</p>
     </div>
  </div>
  </div>
@@ -118,5 +118,7 @@
 </div>
 <!-- ------------------------------FOOTER-------------------- -->
 <script src="js/viacep.js"></script>
+<script src="js/password.js"></script>
+<script src="js/info.js"></script>
 </body>
 </html>

@@ -19,4 +19,4 @@ function Login() {
      }  // alerte se da erro
     else if (done==0) { swal("Error!", "Usuário ou Senha Invalidos", "error"); }
   }
-  
+
