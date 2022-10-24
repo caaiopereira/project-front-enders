@@ -21,5 +21,4 @@ function Salvar(){
         localStorage.email = mail.value;
      }
 }
-        
-function 
+ 
