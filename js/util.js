@@ -12,6 +12,7 @@ function msgAlert(e,status){
             text: e,
             icon: "success",
             button: false,
+            timer: 3000,
             });
     }
 }
