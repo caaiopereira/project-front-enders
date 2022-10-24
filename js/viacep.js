@@ -19,12 +19,6 @@
         else {
             //CEP não Encontrado.
             limpa_formulário_cep();
-            swal({
-                title: "Error!",
-                text: "CEP inválido ou não encontrado!",
-                icon: "error",
-                button: "OK"
-              });
 
         }
     }
@@ -62,12 +56,7 @@
             } //end if.
             else {
                 //cep é inválido.
-                swal({
-                    title: "Error!",
-                    text: "CEP inválido ou não encontrado!",
-                    icon: "error",
-                    button: "OK"
-                  });
+                msgAlert(x = "CEP inválido ou não encontrado!" ,false)
                   limpa_formulário_cep();
             }
         } //end if.
