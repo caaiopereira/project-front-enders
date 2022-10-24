@@ -9,8 +9,9 @@
     justify-content: space-between;
     text-align: center;
     min-height: 430px;
-    grid-template-columns: repeat(5, calc(20% - 5px));
-    margin: 10px;
+    grid-template-columns: repeat(5, calc(15% - 5px));
+    margin: 2% 8% 2% 8%;
+    padding: 20px;
 }
 
 .cards{
@@ -21,7 +22,7 @@
     word-wrap: break-word;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
-    padding: 40px;
+    padding: 10px;
 }
 
 .avatar{
