@@ -11,15 +11,13 @@
   </head>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <img  src="https://thumbs.dreamstime.com/b/s%C3%ADmbolo-logo-design-do-%C3%ADcone-computador-de-secret%C3%A1ria-118320008.jpg" alt="logo" width="100x">
-        <h5 class="my-0 mr-md-auto font-weight-normal badge-pill badge-dark">The FrontEnders</h5>
-       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="index.html">Inicio</a>
-        <a class="p-2 text-dark" href="servicos.html">Serviços</a>
-        <a class="p-2 text-dark" href="contato.html">Contato</a>
-        <a class="p-2 text-dark" href="equipe.html">Equipe</a>
-        <a class="btn btn-outline-primary" href="login.html">Login</a>
-       </nav>
+      <h5 class="my-0 mr-md-auto font-weight-normal badge-pill badge-dark">The FrontEnders</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="index.html">Inicio</a>
+          <a class="p-2 text-dark" href="servicos.html">Serviços</a>
+          <a class="p-2 text-dark" href="contato.html">Contato</a>
+        </nav>
+      <a class="btn btn-outline-primary" href="login.html">Login</a>
 </div>
 <!-- -------------- NAVEGADOR --------------- -->
 
@@ -32,57 +30,57 @@
 
 <div class="container col-md-6">
     <form method="get" action="contato.html">
-        <div class="form-row">
-              <div class="form-group col-md-6">
+        <div class="form-row" >
+              <div class="form-group col-md-6" id="form-user">
                 <label>Usuario</label>
                 <input type="text" class="form-control" id="usuario" required >
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" id="form-mail">
                 <label>Email</label>
                 <input type="email" class="form-control" id="email" required>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" id="form-pass">
                 <label>Senha</label>
-                <input type="password" class="form-control" id="password" minlength="8" required>
+                <input type="password" class="form-control" id="password"  required>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" id="form-conf-pass">
                 <label>Confirmar Senha</label>
-                <input type="password" class="form-control" id="confirm_password" minlength="8" required>
+                <input type="password" class="form-control" id="confirm_password"  required>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" id="form-rg">
                   <label>RG</label>
-                  <input type="number" class="form-control" maxlength="7" required>
+                  <input type="number" class="form-control" id="rg" maxlength="7" required>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-6" id="form-cpf">
                 <label>CPF</label>
-                <input type="number" class="form-control" maxlength="11" required>
+                <input type="number" class="form-control" id="cpf" maxlength="11" required>
             </div>
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-3" id="form-cep">
               <label>Cep:
-              <input name="cep" class="form-control" type="text" id="cep" value="" maxlength="9" onblur="pesquisacep(this.value);"  required /></label><br />
+              <input name="cep" class="form-control" type="text" id="cep"  maxlength="9" onblur="pesquisacep(this.value);"  required /></label><br />
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-4" id="form-rua" >
               <label>Rua:
               <input name="rua" class="form-control" type="text" id="rua" size="40" /></label><br />
           </div>
-          <div class="form-group col-md-5">
+          <div class="form-group col-md-5" id="form-bairro">
               <label>Bairro:
               <input name="bairro"  class="form-control" type="text" id="bairro" size="45" /></label><br />
           </div>
-          <div class="form-group col-md-5">
+          <div class="form-group col-md-5" id="form-city">
               <label>Cidade:
               <input name="cidade" class="form-control" type="text" id="cidade" size="40" /></label><br />
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-4" id="form-uf">
               <label>Estado:
               <input name="uf" class="form-control"type="text" id="uf" size="25" /></label><br />
           </div>
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-3" id="form-ibge">
               <label>IBGE:
               <input name="ibge" class="form-control" type="text" id="ibge" size="22" /></label><br />
           </div>
       </div>
-        <button type="submit" style="width: 160px;" id="btn" onclick="Salvar()" class="btn btn-primary">Enviar</button>
+        <button type="submit" style="width: 160px;" id="btn" class="btn btn-primary">Enviar</button>
     </form>
 </div> 
 

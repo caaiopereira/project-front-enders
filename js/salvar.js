@@ -33,6 +33,17 @@ document.querySelector('#btn').addEventListener('click', (e) => {
         localStorage.usuario = user.value;
         localStorage.password = pass.value;
         localStorage.email = mail.value;
-        document.querySelector(`#form input`).value = "";
+        document.querySelector(`#form-mail input`).value = "";
+        document.querySelector(`#form-user input`).value = "";
+        document.querySelector(`#form-pass input`).value = "";
+        document.querySelector(`#form-conf-pass input`).value = "";
+        document.querySelector(`#form-rg input`).value = "";
+        document.querySelector(`#form-cpf input`).value = "";
+        document.querySelector(`#form-cep input`).value = "";
+        document.querySelector(`#form-rua input`).value = "";
+        document.querySelector(`#form-bairro input`).value = "";
+        document.querySelector(`#form-city input`).value = "";
+        document.querySelector(`#form-uf input`).value = "";
+        document.querySelector(`#form-ibge input`).value = "";
      }
 });
