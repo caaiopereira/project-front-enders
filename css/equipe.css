@@ -22,6 +22,7 @@ h1{
     display: flex;
     position: relative;
     flex-direction: column;
+    background-color: whitesmoke;
     border-radius: 20px;   
     word-wrap: break-word;
     border: 1px solid rgba(0,0,0,0.125);
@@ -66,16 +67,31 @@ h1{
 
 @media (max-width: 1059px){
 
-.card-container{
-    grid-template-columns: repeat(3, calc(30% - 5px));
+    .card-container{
+        grid-template-columns: repeat(4, calc(25% - 5px));
+    }
 }
+
+@media (max-width: 920px){
+    
+    .card-container{
+        grid-template-columns: repeat(3, calc(30% - 5px));
+    }
 
 }
 
 @media (max-width: 767px){
 
     .card-container{
+        grid-template-columns: repeat(2, calc(40% - 5px));
+    }
+    
+}
+
+@media (max-width: 620px){
+
+    .card-container{
         grid-template-columns: repeat(1, calc(80% - 5px));
     }
     
-    }
+}
