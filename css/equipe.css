@@ -65,7 +65,7 @@ h1{
     height: 35px;
 }
 
-@media (max-width: 1059px){
+@media (max-width: 1080px){
 
     .card-container{
         grid-template-columns: repeat(4, calc(25% - 5px));
@@ -75,7 +75,7 @@ h1{
 @media (max-width: 920px){
     
     .card-container{
-        grid-template-columns: repeat(3, calc(30% - 5px));
+        grid-template-columns: repeat(3, calc(35% - 5px));
     }
 
 }
@@ -83,7 +83,7 @@ h1{
 @media (max-width: 767px){
 
     .card-container{
-        grid-template-columns: repeat(2, calc(40% - 5px));
+        grid-template-columns: repeat(2, calc(48% - 5px));
     }
     
 }
