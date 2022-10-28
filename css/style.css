@@ -44,7 +44,10 @@ body{
         }
         footer span{
           margin-left: 25px;
-        }
+        }   
+        .navtext{
+        text-align: center;
+        }        
         .fonte{
           font-family: Roboto;
           letter-spacing: 0;
