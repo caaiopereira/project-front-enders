@@ -48,6 +48,10 @@ body{
         .navtext{
         text-align: center;
         }       
-    
+            .fonte{
+          font-family: Roboto, Minecraftia;
+          letter-spacing: 0;
+        }
+        
       }
       
