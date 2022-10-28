@@ -8,4 +8,4 @@
     Login/Senha e Recuperação de Senha
     Formulário para cadastro
     SweetAlert para Alertas
-    Page Equipe com informções individuais  de cada  aluno envolvido  no projeto
+    Page Equipe com informções individuais de cada aluno envolvido no projeto
